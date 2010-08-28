@@ -1,0 +1,5 @@
+The purpose of this repository is to hold Rails Templats that I use to kick start development of new Rails applications.
+
+My plan is to create the root .rb template files in the main directory and then create sub-directories with same name as the .rb file to hold include code and other assets needed by the template.
+
+
