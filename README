@@ -4,7 +4,7 @@ My plan is to create the root .rb template files in the main directory and then 
 
 Usage:
 
-rails [appname] -m http://github.com/jttacj/templates/raw/master/[template_name].rb
+rails [appname] -m http://github.com/jttacj1/templates/raw/master/[template_name].rb
 
 Current templates include:
 
