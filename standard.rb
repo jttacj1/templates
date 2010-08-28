@@ -226,6 +226,13 @@ InheritedResources::Responder.class_eval do
 end
 END_INHERITED_RESOURCES_INITIALIZER
 
+file '.gems', <<-END_DOT_GEMS
+rack -v 1.1.0
+rails -v 2.3.8
+devise -v 1.0.8
+inherited_resources -v 1.0.6
+END_DOT_GEMS
+
 git :init
 git :add => "."
 git :commit => "-a -m 'Initial Commit'"
